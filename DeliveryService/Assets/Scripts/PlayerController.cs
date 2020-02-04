@@ -18,10 +18,14 @@ public class PlayerController : MonoBehaviour
     {
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
+                
     }
 
     void Update()
     {
+
+        GetComponent<Rigidbody2D>().velocity = transform.forward * speed;
+
         if (Input.GetKey(moveUp))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, speed);

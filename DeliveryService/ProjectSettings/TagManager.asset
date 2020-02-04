@@ -7,6 +7,8 @@ TagManager:
   - Other
   - Drop
   - Target
+  - Solid
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - Foreground
+  - 
   - 
   - 
   - 
@@ -47,6 +49,15 @@ TagManager:
   - name: Background
     uniqueID: 3804738099
     locked: 0
+  - name: Player
+    uniqueID: 2232350553
+    locked: 0
   - name: Foreground
     uniqueID: 645511553
+    locked: 0
+  - name: UI
+    uniqueID: 880644595
+    locked: 0
+  - name: New Layer
+    uniqueID: 819262945
     locked: 0

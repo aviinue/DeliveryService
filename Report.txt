@@ -1,0 +1,14 @@
+Individual Game
+Kathryn Nastasi
+
+For my individual game I decided to do a concept based on Studio Ghibli's film, Kiki's Delivery Service. In this game you play as a witch that delivers potted plants to homes throughout her town.
+
+You can drop plants by pressing the left CTRL button and move up and down with the arrow keys to avoid running into passing birds. The goal is to drop as many plants to the houses below as possible.
+
+I designed this game based around things that I liked such as plants and soft pastel colors. All of the art and animations were hand done by me. Everything can be found in the submitted folder, Assets, which contains .psd files and exported pngs.
+
+All of the code was also handwritten by me. I have plant objects disappearing as they come into contact with the houses below as well as a background that will look infinitely. When the player collides with a bird, it restarts the game. 
+
+One issue I ran into was I could not infinitely loop the spawning houses and birds, they do eventually stop spawning. I also have an issue where the background moves very slowly when playing the executable. It runs much better in the unity engine itself.
+
+If I'd had a bit more time after drawing all the assets, my stretch goals included adding some UI elements to track how many plants you delivered and a gameover screen.
